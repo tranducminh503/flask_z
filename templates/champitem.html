@@ -1,0 +1,12 @@
+<div class = row>
+    {% for champ in champs %}
+    <div class = "col-9">
+    <div class="border-bottom" style="margin-bottom: 16px;" class = "padding-bottom">
+        <h2 style = "color: aquamarine;">{{champ['name']}}</h2>
+    </div>
+    </div>
+    <div class = "col-3">
+    <button type="button" class="btn btn-primary" class = "col-3">Details</button>
+    </div>
+    {%endfor%}
+</div>
